@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Blue Green */
+.BlueGreen {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #17A2B8;
+}
+
+  .BlueGreen td,
+  .BlueGreen th {
+      border: 1px solid #17A2B8;
+      /*padding: 1px;*/
+      line-height: 20px;
+      padding-left: 5px;
+  }
+
+  .BlueGreen th {
+      border: 1px solid #9d79ad;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      text-align: left;
+      background-color: #17A2B8;
+      color: white;
+      line-height: 30px;
+      padding-left: 5px;
+  }
+
+  .BlueGreen tr:nth-child(even) {
+      background-color: #fff;
+  }
+
+  .BlueGreen tr:hover {
+      background-color: #6ab0bb;
+      color: white;
+  }
+
+  .BlueGreen td,
+  .BlueGreen th {
+      font-size: 12px;
+  }
+
+  .BlueGreen a:hover {
+      color: #fff;
+  }
